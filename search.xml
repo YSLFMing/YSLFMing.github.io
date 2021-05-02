@@ -4,9 +4,30 @@
   
     
     <entry>
+      <title>南工程成绩实时获取脚本</title>
+      <link href="post/18896.html"/>
+      <url>post/18896.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><ul><li>已有Python3环境</li><li>chrome浏览器必须与chromedriver版本对应</li><li>一定要保证自己<strong>内网访问系统</strong>和<strong>信息门户</strong>的账号密码<strong>一致</strong>(大多数都是一样的)</li><li>QMSG酱APP中需要添加需要推送的qq号码</li><li>在message.txt 中第一行填账号，第二行填密码，若需要多用户推送，账号与账号之间，密码与密码之间需要用#隔开，<strong>一定要保证#两边留个空格</strong></li></ul><h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><ul><li>点<a href="https://npm.taobao.org/mirrors/chromedriver/">这里</a><br>下载chromedriver,找到与自己chrome版本最接近的版本,压缩包所提供了目前最新的chromedriver</li><li>在解压缩后使用pip3 install -r requirements.txt -t ./ -i <a href="https://mirrors.aliyun.com/pypi/simple">https://mirrors.aliyun.com/pypi/simple</a><br>下载所需模块</li><li>需要去<a href="https://qmsg.zendee.cn/">QMSG酱官网</a> 注册</li><li>若使用自动版需要去<a href="">超级鹰官网</a><br>注册，并创建软件ID，注册送1000积分即100次验证码识别，具体教程看<a href="https://blog.csdn.net/weixin_40576010/article/details/89196671">这</a></li></ul><h1 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h1><ul><li>在qmsg.py中将注册获得的key填入</li><li>若是自动版，在njitcj_auto.py的相应位置填入超级鹰的账号密码以及软件ID</li><li>在njitcj_auto.py中i为1是message.txt中第二位用户,i为0是第一位用户，改变传入的qq值，只写了两个用户的推送位，若需增加请自行修改,</li></ul><h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p>过两天上传</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> way </tag>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>南京工程学院历年成绩获取脚本</title>
-      <link href="2021/040515727.html"/>
-      <url>2021/040515727.html</url>
+      <link href="post/15727.html"/>
+      <url>post/15727.html</url>
       
         <content type="html"><![CDATA[<h1 id="运行方法"><a href="#运行方法" class="headerlink" title="运行方法"></a>运行方法</h1><ul><li>解压到同一个文件夹  </li><li>运行NJITgrade1_2.exe文件</li></ul><h1 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h1><ul><li>仅支持最新版chrome浏览器(89.0.4389.*)(64位)的用户，其余用户可能无法操作  </li><li>需要自己手动输入验证码!(OCR技术没尝试，网上说识别率不行)</li><li>暂时无法解决账号密码验证码错误的问题，若出错请重新打开exe文件输入正确账号密码验证码</li><li>暂时只能查看本学年此学期的成绩，后续会添加</li><li>短时间能快速获取成绩，能在窗口看到最新成绩</li></ul><h1 id="新增"><a href="#新增" class="headerlink" title="新增"></a>新增</h1><ol><li>从命令框变成了图形框，增强了交互性  </li></ol><h1 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h1><p><a href="https://pan.baidu.com/s/1MZRQAQWSf28jApDXOso0_A">NJITgrade1_2</a><br>提取码：8888</p>]]></content>
       
